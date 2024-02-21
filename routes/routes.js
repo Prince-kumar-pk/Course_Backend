@@ -77,7 +77,8 @@ const newPost = new Model(
         duration : req.body.duration,
         vidLink : req.body.vidLink,
         profile : req.body.profile,
-        insname : req.body.insname
+        insname : req.body.insname,
+        rating : req.body.rating,
     }
 )
 
@@ -88,8 +89,6 @@ try {
 } catch (error) {
     res.status(400).json(error);
 }
-
-
 })
 
 //GET All Post

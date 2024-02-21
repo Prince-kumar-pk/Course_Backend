@@ -34,7 +34,10 @@ const schema = new mongoose.Schema(
             required:true,
             type:String
         },
-
+        rating:{
+            required:true,
+            type:String
+        }
     }
 )
 

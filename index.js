@@ -9,7 +9,6 @@ const mongoose = require('mongoose');
 const mongoUrl = require('./keys')
 
 
-const dbString = process.env.DATABASE_URL;
 
 require("./module/module")
 app.use(express.json());
